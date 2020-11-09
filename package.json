@@ -1,0 +1,42 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "first app",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build-css": "sass --watch app-wap/src/sass:app-wap"
+  },
+  "author": "priya",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.12",
+    "browserify": "^17.0.0",
+    "buffer": "^5.6.0",
+    "gifsicle": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-change": "^1.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "jpegtran": "^1.1.0",
+    "optipng": "^2.2.0",
+    "source": "0.0.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
+}

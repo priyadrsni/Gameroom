@@ -1,0 +1,31 @@
+@mixin clearFix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin mQ($breakpoints...) {
+  @each $breakpoint in $breakpoints {
+    @media #{$breakpoint} {
+      @content;
+    }
+  }
+}
+
+// Font family
+@mixin fontFamily($name, $weight, $eotUrl1, $eotUrl2, $woff2Url, $woffUrl, $truetypeUrl, $svgUrl) {
+  @font-face {
+    font-family: $name;
+    font-style: normal;
+    font-weight: $weight;
+    src: url('$eotUrl1'); /* IE9 Compat Modes */
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+         url($eotUrl2) format('embedded-opentype'), /* IE6-IE8 */
+         url($woff2Url) format('woff2'), /* Super Modern Browsers */
+         url($woffUrl) format('woff'), /* Modern Browsers */
+         url($truetypeUrl) format('truetype'), /* Safari, Android, iOS */
+         url($svgUrl) format('svg'); /* Legacy iOS */
+  }
+}

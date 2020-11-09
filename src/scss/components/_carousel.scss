@@ -1,0 +1,18 @@
+.carousel-slider {
+  button:nth-child(2) {
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel {
+  margin: 25px 0 40px 0;
+  font-size: 0;
+  white-space: nowrap;
+  transition: all .3s;
+  margin-left: 0;
+}

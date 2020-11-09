@@ -1,0 +1,31 @@
+@use "sass:color";
+
+.badge {
+  display: inline-block;
+  background-color: var(--primary-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-right: 10px;
+  border-radius: 3px;
+  vertical-align: middle;
+  padding: 4px 8px;
+  color: #fff;
+
+  &--transparent {
+    vertical-align: initial;
+    background-color: rgba(var(--text-color), 0.1);
+    color: #fff;
+  }
+
+  &--small {
+    box-shadow: 0 0 12px 0 rgba(111, 110, 255, 0.5);
+    padding: 3px 3px 2px 3px;
+  }
+
+  &--red {
+    padding: 3px 5px 2px 5px;
+    background-color: #ff4738;
+    box-shadow: 0 0 12px 0 rgba(255, 71, 56, 0.5);
+  }
+}

@@ -1,0 +1,276 @@
+body {
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.row {
+  width: 100%;
+  @include clearFix;
+}
+
+.coins,
+.energy {
+  display: inline-block;
+  padding: 3px 8px 3px 3px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 0.77;
+  background-color: var(--half-bgcolor);
+  border-radius: 5px;
+  margin-right: 13px;
+
+  span {
+    vertical-align: middle;
+  }
+}
+
+.coins {
+  button {
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    padding: 0;
+    cursor: pointer;
+    margin-left: 13px;
+    vertical-align: middle;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.energy {
+  &__time {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 0.9;
+    opacity: 0.6;
+    margin-left: 5px;
+    margin-top: -4px;
+  }
+}
+
+.main-content {
+  width: calc(100% - 280px);
+  float: left;
+
+  .horizontal-nav {
+    padding: 0 45px 0 55px;
+    @extend %u-border-bottom;
+    @include clearFix;
+  }
+
+  &__nav {
+    float: left;
+  }
+
+  &__lang {
+    position: relative;
+    display: inline-block;
+    line-height: 72px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 20px;
+
+    .arrow-down {
+      display: inline-block;
+      border-top: 4px solid var(--text-color);
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    img {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .dropdown-list {
+      display: none;
+      position: absolute;
+      line-height: normal;
+      padding: 0;
+      font-size: 12px;
+      background-color: rgb(255, 255, 255);
+      top: 57px;
+      color: #000;
+      z-index: 1;
+      border-right: none;
+
+      li {
+        padding: 5px 7px;
+        width: 100%;
+
+        &.active {
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 30px;
+        border-bottom: 5px solid #fff;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+      }
+    }
+  }
+
+  &__profile {
+    // display: inline-block;
+    float: right;
+    vertical-align: middle;
+
+    .profile {
+      display: inline-block;
+
+      img {
+        vertical-align: middle;
+      }
+
+      &__details {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 13px;
+
+        span {
+          font-size: 14px;
+
+          &:last-child {
+            display: block;
+            font-size: 13px;
+            color: #24cb8d;
+            margin-top: 9px;
+            position: relative;
+            padding-left: 15px;
+
+            &::before {
+              content: '';
+              position: absolute;
+              top: 4px;
+              left: 4px;
+              width: 6px;
+              height: 6px;
+              background-color: #24cb8d;
+              margin-right: 5px;
+              border-radius: 50%;
+            }
+          }
+        }
+        .badge {
+          vertical-align: middle;
+          margin-left: 13px;
+          padding: 2px 10px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .page-content {
+    max-width :1160px;
+    max-height: 88vh;
+    overflow: auto;
+    padding: 40px 55px 55px 55px;
+
+    .loader {
+      text-align: center;
+      display: none;
+
+      span {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 5px solid var(--half-bgcolor);
+        border-radius: 50%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        animation: spin 1s linear infinite;
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    #allgames,
+    #action,
+    #adventure,
+    #casual,
+    #strategy,
+    #intellectual,
+    #sport,
+    #recommended,
+    #newgames,
+    #mostplayed {
+      display: none;
+    }
+
+    #allgames:target,
+    #action:target,
+    #adventure:target,
+    #casual:target,
+    #strategy:target,
+    #intellectual:target,
+    #sport:target,
+    #recommended:target,
+    #newgames:target,
+    #mostplayed:target {
+      display: block;
+    }
+
+    &__quests {
+      nav {
+        @include clearFix;
+      }
+
+      .quest-header {
+        float: left;
+        width: 50%;
+
+        h2 {
+          font-size: 11px;
+          font-weight: 600;
+          line-height: normal;
+          margin-bottom: 9px;
+          opacity: 0.4;
+        }
+
+        h3 {
+          font-size: 22px;
+          font-weight: 600;
+          line-height: normal;
+          @extend %u-text-overflow-ellipsis;
+        }
+      }
+
+      .carousel-slider {
+        float: right;
+      }
+    }
+  }
+}
+
+
+.dropdown {
+  &.open {
+    &+.dropdown-list {
+      display: block;
+    }
+  }
+}

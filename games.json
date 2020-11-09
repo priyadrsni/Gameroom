@@ -1,0 +1,290 @@
+[
+  {
+    "gameType": "quest",
+    "gameName": "PUBG Mobile",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap.png",
+    "gameGoal": "Deal 5000 damage to enemies with grenades.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Mayhem Combat",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap1.png",
+    "gameGoal": "Win 10 games per character Mike.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Burrito Bison: Launcha Libre",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap2.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Battlelands Royale",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap3.png",
+    "gameGoal": "Eliminate 10 opponents.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Star Knight",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap4.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Talking Tom Gold digging",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap5.png",
+    "gameGoal": "Run 20,000 meters",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Guns of Boom",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap6.png",
+    "gameGoal": "Eliminate 10 opponents from sniper rifle.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Shadow Fight 2",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap7.png",
+    "gameGoal": "Defeat your opponent without special moves.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Burrito Bison: Launcha Libre",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap2.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Battlelands Royale",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap3.png",
+    "gameGoal": "Eliminate 10 opponents.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Star Knight",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap4.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Talking Tom Gold digging",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap5.png",
+    "gameGoal": "Run 20,000 meters",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Guns of Boom",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap6.png",
+    "gameGoal": "Eliminate 10 opponents from sniper rifle.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Shadow Fight 2",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap7.png",
+    "gameGoal": "Defeat your opponent without special moves.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "PUBG Mobile",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap.png",
+    "gameGoal": "Deal 5000 damage to enemies with grenades.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Mayhem Combat",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap1.png",
+    "gameGoal": "Win 10 games per character Mike.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "PUBG Mobile",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap.png",
+    "gameGoal": "Deal 5000 damage to enemies with grenades.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Mayhem Combat",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap1.png",
+    "gameGoal": "Win 10 games per character Mike.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Burrito Bison: Launcha Libre",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap2.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Battlelands Royale",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap3.png",
+    "gameGoal": "Eliminate 10 opponents.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Star Knight",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap4.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Talking Tom Gold digging",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap5.png",
+    "gameGoal": "Run 20,000 meters",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Guns of Boom",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap6.png",
+    "gameGoal": "Eliminate 10 opponents from sniper rifle.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Shadow Fight 2",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap7.png",
+    "gameGoal": "Defeat your opponent without special moves.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Burrito Bison: Launcha Libre",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap2.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+50K",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Battlelands Royale",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap3.png",
+    "gameGoal": "Eliminate 10 opponents.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Star Knight",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap4.png",
+    "gameGoal": "Earn 10,000 сoins.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Talking Tom Gold digging",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap5.png",
+    "gameGoal": "Run 20,000 meters",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Guns of Boom",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap6.png",
+    "gameGoal": "Eliminate 10 opponents from sniper rifle.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "popular",
+    "gameName": "Shadow Fight 2",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap7.png",
+    "gameGoal": "Defeat your opponent without special moves.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "PUBG Mobile",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap.png",
+    "gameGoal": "Deal 5000 damage to enemies with grenades.",
+    "gameCoins": "+100",
+    "gameEnergy": "-75"
+  },
+  {
+    "gameType": "quest",
+    "gameName": "Mayhem Combat",
+    "gameGenre": "Action",
+    "gameImage": "./dist/images/bitmap1.png",
+    "gameGoal": "Win 10 games per character Mike.",
+    "gameCoins": "+100k",
+    "gameEnergy": "-75"
+  }
+]

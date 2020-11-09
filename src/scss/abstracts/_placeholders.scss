@@ -1,0 +1,27 @@
+%u-opacity1-on-hover {
+  &:hover {
+    opacity: 1;
+  }
+}
+
+%u-text-overflow-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+%u-focus-outline-none {
+  &:focus {
+    outline: none;
+  }
+}
+
+// %u-box-shadow-on-hover {
+//   &:hover {
+//     box-shadow: inset 0 -3px 0 0 $text-secondary;
+//   }
+// }
+
+%u-border-bottom {
+  border-bottom: 1px solid var(--half-bgcolor);
+}

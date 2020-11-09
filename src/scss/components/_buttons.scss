@@ -1,0 +1,47 @@
+.btn {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all 0.3s;
+  color: #fff;
+
+
+  &:focus {
+    outline: none;
+  }
+
+  &-primary {
+    padding: 8px 18px;
+    font-size: 12px;
+    background: $primary-gradient-color;
+    max-width: 50%;
+    @extend %u-text-overflow-ellipsis;
+  }
+}
+
+.btn-arrow {
+  border: 1px solid var(--half-bgcolor);
+  background-color: transparent;
+  padding: 7px 12px;
+  transition: background-color .3s;
+  color: var(--text-color);
+
+  &:hover {
+    background-color: var(--half-bgcolor);
+  }
+
+  .left-arrow,
+  .right-arrow {
+    display: inline-block;
+  }
+
+  .left-arrow {
+    transform: rotate(90deg);
+  }
+
+  .right-arrow {
+    transform: rotate(-90deg);
+  }
+}

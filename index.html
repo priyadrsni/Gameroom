@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/images/css/sprite.css">
+  <link rel="stylesheet" href="./dist/css/style.min.css">
+  <script defer src="./dist/js/app.min.js"></script>
+
+  <title>Uproar</title>
+</head>
+
+<body>
+  <div class="row">
+    <aside class="side-nav">
+      <div class="side-nav__logo">
+        <span class="icon logo"></span>
+        <a href="javascript:void(0);" class="side-nav__brand">UPROAR</a>
+        <span class="badge badge--transparent">beta</span>
+      </div>
+      <ul class="side-nav__menu">
+        <li><a href="javascript:void(0)" id="games"><span>GAMES</span> <span class="icon down-copy"></span></a>
+          <ul class="side-nav__menu-items">
+            <li><a href="#allgames">All Games</a></li>
+            <li class="games-categories"><a href="javascript:void(0);" id="categories"><span>Categories</span> <span class="icon down-copy"></span></a>
+              <ul class="vertical-nav categories-list">
+                <li><a href="#action"><span class="icon combined-shape"></span>Action</a></li>
+                <li><a href="#adventure"><span class="icon shape"></span>Adventure</a></li>
+                <li><a href="#casual"><span class="icon fill-1"></span>Casual</a></li>
+                <li><a href="#strategy"><span class="icon fill-1"></span>Strategy</a></li>
+                <li><a href="#intellectual"><span class="icon combined-shape1"></span>Intellectual</a></li>
+                <li><a href="#sport"><span class="icon combined-shape2"></span>Sport</a></li>
+              </ul>
+            </li>
+            <li><a href="#recommended">Recommended</a></li>
+            <li><a href="#newgames">New!</a></li>
+            <li><a href="#mostplayed">Most Played</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="side-nav__my-games">
+        <a href="javascript:void(0);"><span class="icon combined-shape3"></span>MY GAMES</a>
+      </div>
+      <div class="side-nav__mode">
+        <span>Dark mode</span>
+        <label for="switch" id="switchTheme">
+          <input type="checkbox" id="switch">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </aside>
+    <main class="main-content">
+      <nav class="horizontal-nav">
+        <div class="main-content__nav">
+          <ul>
+            <li><a href="javascript:void(0);">FAQ</a></li>
+            <li><a href="javascript:void(0);">About</a></li>
+            <li><a href="javascript:void(0);">Support</a></li>
+          </ul>
+          <div class="main-content__lang">
+            <div class="dropdown" id="languages">
+              <img src="./dist/images/flag.png" alt="country flag">
+              <span class="language">Eng</span>
+              <span class="arrow-down"></span>
+            </div>
+            <ul class="dropdown-list">
+              <li class="active"><img src="./dist/images/flag.png" alt="country flag">
+                <span>Eng</span></li>
+              <li><img src="./dist/images/flag.png" alt="country flag">
+                <span>Sou</span></li>
+              <li><img src="./dist/images/flag.png" alt="country flag">
+                <span>Kor</span></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="main-content__profile">
+          <span class="coins">
+            <span class="badge badge--small"><span class="icon shape1"></span></span>
+            <span>600</span> <button>+</button>
+          </span>
+          <span class="energy">
+            <span class="badge badge--red badge--small"><span class="icon icon-1"></span></span>
+            <span>1200</span> <span class="energy__time">+5/hour</span>
+          </span>
+          <div class="profile">
+            <img src="./dist/images/avatar.png" alt="profile image">
+            <div class="profile__details">
+              <span>Jeremy Manning </span><span class="badge">PRO</span>
+              <span>Online</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="page-content">
+        <div class="loader"><span></span></div>
+        <section id="allgames"></section>
+        <section id="action">
+          <section class="page-content__quests">
+            <nav>
+              <div class="quest-header">
+                <h2>DON'T MISS THEM</h2>
+                <h3>Weekly quests</h3>
+              </div>
+              <div class="carousel-slider">
+                <button class="btn btn-primary">All Games</button>
+                <button class="btn btn-arrow prev"><span class="icon down-copy left-arrow"></span></button>
+                <button class="btn btn-arrow next"><span class="icon down-copy right-arrow"></span></button>
+              </div>
+            </nav>
+            <div class="carousel-container">
+              <div class="carousel" id="gameQuests">
+                
+              </div>
+            </div>
+          </section>
+          <section class="page-content__quests">
+            <nav>
+              <div class="quest-header">
+                <h2>TO THE TOP</h2>
+                <h3>Popular games</h3>
+              </div>
+              <div class="carousel-slider">
+                <button class="btn btn-primary">All Games</button>
+                <button class="btn btn-arrow prev"><span class="icon down-copy left-arrow"></span></button>
+                <button class="btn btn-arrow next"><span class="icon down-copy right-arrow"></span></button>
+              </div>
+            </nav>
+            <div class="carousel-container">
+              <div class="carousel">
+                
+              </div>
+            </div>
+          </section>
+        </section>
+        <section id="adventure"></section>
+        <section id="casual"></section>
+        <section id="strategy"></section>
+        <section id="intellectual"></section>
+        <section id="sport"></section>
+        <section id="recommended"></section>
+        <section id="newgames"></section>
+        <section id="mostplayed"></section>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

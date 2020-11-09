@@ -1,0 +1,62 @@
+// Colors
+$text-color: #fff;
+$primary-color: #6f6eff;
+$primary-gradient-color: linear-gradient(to right, #6b69f9, #6f6eff);
+$secondary-color: #ff4738;
+$bg-color: #2b2c3a;
+$half-bgcolor: rgba(#d8d8d8, 0.1);
+
+
+:root {
+  --text-color: #{$text-color};
+  --primary-color: #{$primary-color};
+  --primary-gradient-color: #{$primary-gradient-color};
+  --secondary-color: #{$secondary-color};
+  --bg-color: #{$bg-color};
+  --half-bgcolor: #{$half-bgcolor};
+}
+
+[data-theme="light"] {
+  --text-color: #212121;
+  --primary-color: #{$primary-color};
+  --primary-gradient-color: #{$primary-gradient-color};
+  --secondary-color: #{$secondary-color};
+  --bg-color: #fafafa;
+  --half-bgcolor: rgba(73, 75, 100, 0.09);
+}
+
+// Media Queries Breakpoints
+$grid-columns: 12;
+$grid-percentage: 100% / $grid-columns;
+$small: '(max-width: 768px)';
+$medium: '(min-width: 768px) and (max-width: 998px)';
+$large: '(min-width: 998px) and (max-width: 1200px)';
+$extra-large: '(min-width: 1200px)';
+
+// #379aff: #a3a3a8;
+// $slate-gray: #72808e;
+// $mercury: #e1e1e1;
+// $geyser: #dadfe5;
+// $gun-powder: #3e3e58;
+
+// $puerto-rico: #3dbdb6;
+
+// $lochmara: #0089ce;
+// $moody-blue: #7a86cc;
+// $jordy-blue: #9facf8;
+
+// $dodger-blue: #2d8cff;
+// #379aff: #379aff;
+// $piction-blue: #20bbef;
+// $mystic: #e9edf2;
+// $denim: #1172d0;
+// $curious-blue: #1d98d6;
+// $froly: #f3778f;
+// $froly1: #f26a95;
+// $brilliant-rose: #f15a9d;
+
+// $button-primary: #00b96e;
+// $background-primary: #f9f9f9;
+// $color-primary: #4c4f59;
+// $color-secondary: #8f929d;
+// $color-tertiary: #8e8e93;

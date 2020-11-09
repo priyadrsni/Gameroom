@@ -1,0 +1,109 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 5.2em 18.4em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.combined-shape:before {
+      background-position: 0em 0em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.combined-shape1:before {
+      background-position: 0em -1.8em;
+      width: 1.6em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.combined-shape2:before {
+      background-position: 0em -3.6em;
+      width: 1.6em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.combined-shape3:before {
+      background-position: 0em -5.2em;
+      width: 1.4em;
+      height: 1.4em;
+  }
+
+
+
+
+  .icon.down-copy:before {
+      background-position: 0em -6.6em;
+      width: 1.1em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.fill-1:before {
+      background-position: 0em -7.2em;
+      width: 1.4em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.icon-1:before {
+      background-position: 0em -9em;
+      width: 0.7em;
+      height: 1.2em;
+  }
+
+
+
+
+  .icon.logo:before {
+      background-position: 0em -10.2em;
+      width: 5.2em;
+      height: 5.2em;
+  }
+
+
+
+
+  .icon.shape:before {
+      background-position: 0em -15.4em;
+      width: 1.2em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.shape1:before {
+      background-position: 0em -17.2em;
+      width: 1.3em;
+      height: 1.2em;
+  }
+
+
+
+
+
